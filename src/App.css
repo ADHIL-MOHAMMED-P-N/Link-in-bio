@@ -7,38 +7,47 @@
 }
 
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--main-border-color);
 }
 
 .app {
-  background-color: var(--main-app-color);
+  background-color: var(--main-border-color);
   color: var(--main-text-color);
   width: 80%;
-  border: 1px solid var(--main-app-color);
-  border-radius: 3px;
   margin: auto;
   margin-top: 50px;
   text-align: center;
   padding: 15px;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
 }
 
 .name {
   font-size: 15px;
-  margin-top: 0px;
+  margin-top: 4px;
+  font-weight: lighter;
 }
 
 .image {
-  width: 120px;
-  height: 120px;
-  border: 2px solid var(--main-border-color);
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--main-side-color);
   border-radius: 50%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
     0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 .link__button {
   width: 200px;
-  margin: 5px;
-  border: 1px solid white;
+  height: 40px;
+  margin: 8px 5px;
+  border: 1px solid var(--main-text-color);
   border-radius: 4px;
+  background-color: var(--main-side-color);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+}
+.Link__buttonIcon {
+  position: relative;
+  top: 4px;
 }
