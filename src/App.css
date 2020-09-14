@@ -1,0 +1,37 @@
+:root {
+  --main-bg-color: #252424;
+  --main-app-color: #69779b;
+  --main-text-color: #f0ece2;
+  --main-side-color: #acdbdf;
+  --main-border-color: #053f5e;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.app {
+  background-color: var(--main-app-color);
+  color: var(--main-text-color);
+  width: 80%;
+  border: 1px solid var(--main-app-color);
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
+
+.name {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  border: 2px solid var(--main-border-color);
+  border-radius: 50%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
